@@ -4,6 +4,7 @@ The hypothesis to be tested is that a multimodal framework can improve the accur
 Keywords- Major Depressive Disorder (MDD), electroencephalogram (EEG), Multimodal IoT data Analytics mental .
 
 Objectives:
+
 (1) Develop an electronic health platform that integrates cost-effective interventions to promote health and wellbeing while preventing common mental disorders. 
 
 (2) Identify subgroups of mental disorders, such as Depression, Anxiety disorders, and Schizophrenia, using publicly available datasets.
