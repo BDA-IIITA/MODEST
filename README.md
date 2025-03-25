@@ -7,18 +7,18 @@ The hypothesis to be tested is that a multimodal framework can improve the accur
 
 
 **Objectives:**
+1. **Develop an electronic health platform** that integrates cost-effective interventions to promote health and wellbeing while preventing common mental disorders.
 
-(1) Develop an electronic health platform that integrates cost-effective interventions to promote health and wellbeing while preventing common mental disorders. 
+2. **Identify subgroups of mental disorders**, such as Depression, Anxiety disorders, and Schizophrenia, using publicly available datasets.
 
-(2) Identify subgroups of mental disorders, such as Depression, Anxiety disorders, and Schizophrenia, using publicly available datasets.
+3. **Employ a generalized multimodal fusion framework** to automatically estimate mental disorder scores in the early stages and enable timely clinical interventions for individuals.
 
-(3) Employ a generalized multimodal fusion framework to automatically estimate mental disorder scores in the early stages and enable timely clinical interventions for individuals.
+4. **Use domain adaptation** to capture the relationship between various factors that trigger different mental disorders, employing cross-attention mechanisms to generate a robust multimodal representation.
 
-(4) Use domain adaptation to capture the relationship between various factors that trigger different mental disorders, employing cross-attention mechanisms to generate a robust multimodal representation
+5. **Promote knowledge and expertise transfer** among different research groups and facilitate the exchange of ideas for future collaborations.
 
-(5) Promote knowledge and expertise transfer among different research groups and facilitate the exchange of ideas for future collaborations
+6. **Mitigate the negative effects** of mental health issues on populations such as children, adults, and students.
 
-(6) Mitigate the negative effects of mental health issues on populations such as children, adults, and students. 
 
 **Expected outcome:**
  
