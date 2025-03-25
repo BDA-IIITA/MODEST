@@ -25,3 +25,8 @@ The hypothesis to be tested is that a multimodal framework can improve the accur
 This research can significantly improve the existing state-of-the-art methods for identifying users with mental disorders by creating a multimodal framework and using statistical techniques to combine heterogeneous sets of features obtained from the processing of visual, textual, and user interaction data. Our research helps to create a new generation of health interventions that take demographics into consideration in addition to offering insights into the connection between demographics and mental illness. The proposed solution would keep improving the accuracy by taking continuous feedback from the domain experts. The developed application would be able detect the severity of the disorder to recommend the proper treatment. It is also planned to test the application by active participation of all the stakeholders i.e. domain experts, caregivers and other volunteers.
 
 
+## 👥 Collaborators
+
+| [<img src="https://github.com/johndoe.png" width="100">](https://github.com/rsi2018507) | [<img src="https://github.com/janesmith.png" width="100">](https://github.com/Himanshi0312) |
+|:--:|:--:|
+| [@rsi2018507](https://github.com/rsi2018507) | [@Himanshi0312](https://github.com/Himanshi0312) |
