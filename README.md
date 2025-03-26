@@ -27,6 +27,6 @@ This research can significantly improve the existing state-of-the-art methods fo
 
 ## 👥 Collaborators
 
-| [<img src="https://github.com/johndoe.png" width="100">](https://github.com/rsi2018507) | [<img src="https://github.com/janesmith.png" width="100">](https://github.com/Himanshi0312) |
+| | [<img src="https://github.com/janesmith.png" width="100">](https://github.com/Himanshi0312) |
 |:--:|:--:|
 | [@rsi2018507](https://github.com/rsi2018507) | [@Himanshi0312](https://github.com/Himanshi0312) |
