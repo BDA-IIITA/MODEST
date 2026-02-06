@@ -1,0 +1,81 @@
+Multimodel Disorder Stress Detection System Using LLM
+
+Group Members
+•	Nikhil Ratoliya (IIB2022010)
+•	Vipul Kumar     (IIT2022045)
+•	Vedant Kulkarni (IIT2022114)
+•	Devesh Dixit    (IIT2022217)
+•	Ankit Kumar     (IIT2022259)
+
+Stress-related disorders, a growing global health concern, greatly exacerbate anxiety, depression, and other illnesses. Conventional techniques for measuring stress, such as psychological tests and self-reported questionnaires, are frequently arbitrary and not applicable in real time. Developments in large language models (LLMs), deep learning (DL), and machine learning (ML) present new opportunities for automatic and objective stress detection.Using ECG, EDA, RESP, and EMG data from wearable sensors, this paper shows an LLM-based method for finding stress. The dataset includes the Wearable Stress and Affect Detection (WESAD) dataset. This study compares the performance of LLM with that of traditional ML and DL models (such as SVM, random forest, LSTM, and CNNs) to make stress detection more accurate and stress management easier in real time.
+
+We resolve issues with computational complexity, interpretability, and real-time viability by refining model architectures and implementing effective wearable device solutions. The results support AI-powered mental health monitoring by making stress detection tools more easily accessible, dependable, and timely.
+
+Objectives
+1. Develop AI-Based Stress Detection Models – Implement LLM-based techniques for stress classification using physiological signals.
+
+2. Utilize the WESAD Dataset – Leverage multimodal wearable sensor data (ECG, EDA, RESP, EMG) for accurate stress detection.
+
+3. Compare AI Models – Assess LLMs, ML, and DL models (e.g., SVM, Random Forest, LSTM, CNN) for performance evaluation.
+
+4. Address Computational Challenges – Optimize model efficiency, interpretability, and real-time feasibility for wearable applications.
+
+5. Enhance Real-World Applications – Develop scalable and deployable AI-driven stress monitoring solutions for healthcare and workplace wellness. 
+
+
+
+------------------------------------------------------------------------------------------------------
+1. Overview:
+  This project focuses on processing the WESAD dataset and training a multimodal machine learning model using pretrained models like TimeGPT or PhysioBERT.
+  The workflow involves data preprocessing, model training, and evaluation using accuracy, precision, and recall.
+
+Dataset Structure: 
+  The WESAD dataset consists of multiple subject folders (S2, S3, S4, ..., S17) where each folder contains different files:
+  
+  Raw sensor data (ACC.csv, BVP.csv, EDA.csv, HR.csv, IBI.csv, TEMP.csv)
+  
+  Annotations (info.txt, tags.csv)
+  
+  Other formats (.pkl, .txt, .zip)
+  
+  Since this data is scattered across multiple folders, we first merge all relevant data into a single CSV file.
+
+
+2.Installation & Requirements
+   pip install pandas scikit-learn torch transformers
+
+3.Data Preprocessing:
+  Extract & Merge Data: Read all .csv files inside each subject folder and combine them into a structured dataframe.
+  
+  Final CSV Creation: Save the processed data as final_wesad.csv.
+  
+  Split Data (Train/Test): Use 70% of subjects for training and 30% for evaluation.
+
+
+4.Model Training
+
+  We use TimeGPT or PhysioBERT to fine-tune the model on our preprocessed dataset.
+
+
+5.Model Evaluation (Accuracy, Precision,  F1-Score)
+
+
+6.Conclusion
+
+  Step 1: Data Processing → Merged WESAD data into final_wesad.csv 
+  
+  Step 2: Model Training → Fine-tuned TimeGPT/PhysioBERT 
+  
+  Step 3: Evaluation → Measured Accuracy, Precision, Recall, F1-score 
+
+7.Group Members & Roles
+
+  Nikhil Ratoliya (IIB2022010) - Data Preprocessing & CSV Merging , Documentation & GitHub Management
+  
+  Vipul Kumar (IIT2022045) - Model Selection & Training
+  
+  Vedant Kulkarni (IIT2022114) - Evaluation Metrics Implementation
+  
+  Ankit Kumar (IIT2022259) - Dataset Handling & Code Optimization
+  
+  Devesh Dixit (IIT2022217) - Analyzing performance differences between traditional models and LLMs
