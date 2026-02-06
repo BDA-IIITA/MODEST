@@ -30,3 +30,5 @@ This research can significantly improve the existing state-of-the-art methods fo
 | | [<img src="https://github.com/janesmith.png" width="100">](https://github.com/Himanshi0312) |
 |:--:|:--:|
 | [@rsi2018507](https://github.com/rsi2018507) | [@Himanshi0312](https://github.com/Himanshi0312) |
+|:--:|:--:|
+| [@rsi2018507](https://github.com/rsi2022501) | [@Himanshi0312](https://github.com/Himanshi0312) |
